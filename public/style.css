@@ -1,0 +1,126 @@
+
+body{
+    background-color: beige;
+    display: flex;
+    
+}
+h1{
+    color: rgb(10, 10, 10);
+   
+   
+
+}
+#av{
+    color: white;
+    background-color: black;
+    opacity: 80%;
+}
+h3{
+    text-decoration: underline;
+    color: white;
+}
+div {
+     /* border: 2px solid black;  */
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    /* margin-bottom: 50px; */
+
+}
+.div1 h1{
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+ol{
+    list-style: none;
+}
+
+p{
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+a{
+    color: white;
+    position:static;
+    text-align: center;
+    margin-right: 5px;
+    font-family:'Julius Sans One', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(241, 247, 247);
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    padding-top: 2px;
+  
+
+}
+button:hover{
+    background-color: rgb(94, 94, 247);
+    
+}
+
+button a {
+    color:black
+}
+.fn{
+    display: flex;
+    background-color: rgb(168, 231, 210);
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 700;
+    /* padding-bottom: 5px; */
+    background-image: url(img/ojodecerati.jpg);
+    background-repeat: no-repeat;background-size: cover;
+    height: calc(100vh - 100px);
+    flex-direction: column;
+    justify-content: space-evenly;
+ 
+    
+}  
+
+.sing{
+    margin-top: 30px;
+}
+.av{
+    display: flex;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 700;
+    background-image: url(img/ahiVamos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 100px);
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.seh{
+    display:flex;
+
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 700;
+    background-image: url(img/frente-seh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 100px);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.seh h1{
+ color: black;
+}
+.fn p{
+    color: white ;
+}
+

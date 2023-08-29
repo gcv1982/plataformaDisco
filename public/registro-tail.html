@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>Registro</title>
+</head>
+
+<body class="bg-[url('img/Gustavo_Cerati-Siempre_Es_Hoy-Interior_Trasera.jpg')] bg-no-repeat bg-center bg-cover">
+  <!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+  <!--
+  This example requires updating your template:
+
+  ```
+  <html class="h-full bg-white">
+  <body class="h-full">
+  ```
+-->
+  <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+      <h2 class="mt-1 pb-1 text-center text-2xl font-bold text-gray-900">Registro</h2>
+    </div>
+    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+      <form class="space-y-6" action="#" method="POST">
+        <div>
+          <label for="name" class="block text-xl text-center font-medium leading-6 text-gray-900">Nombre</label>
+          <div class="mt-2">
+            <input id="name" name="name" type="name" autocomplete="name" required
+              class="block w-full font-medium rounded-full border-transparent border-0 border-none outline-transparent py-1.5 text-gray-900 shadow-lg ring-0 ring-inset ring-divide-transparent placeholder:text-gray-400 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+        <div>
+          <label for="name" class="block text-xl text-center font-medium leading-6 text-gray-900">Apellido</label>
+          <div class="mt-2">
+            <input id="name" name="name" type="name" autocomplete="name" required
+              class="block w-full rounded-full border-transparent outline-transparent py-1.5 text-gray-900 shadow-lg ring-0 ring-inset ring-divide-transparent placeholder:text-gray-400 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+        <div>
+          <label for="email" class="block text-xl text-center font-medium leading-6 text-gray-900">Correo
+            Electronico</label>
+          <div class="mt-2">
+            <input id="email" name="email" type="email" autocomplete="email" required
+              class="block w-full rounded-full border-transparent outline-transparent py-1.5 text-gray-900 shadow-lg ring-0 ring-inset ring-divide-transparent placeholder:text-gray-400 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+
+        <div>
+
+          <label for="password" class="block text-xl text-center font-medium leading-6 text-gray-900">Contraseña</label>
+
+
+          <div class="mt-2 pb-4">
+            <input id="password" name="password" type="password" autocomplete="current-password" required
+              class="block w-full rounded-full  outline-transparent py-1.5 text-gray-900 shadow-lg ring-0 ring-inset ring-divide-transparent placeholder:text-gray-400 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+
+        <div class="shadow-2xl">
+          <button type="submit"
+            class="flex w-full justify-center rounded-full shadow-2xl px-3 py-1.5 text-2xl font-semibold text-white hover:bg-red-600">Registrate</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

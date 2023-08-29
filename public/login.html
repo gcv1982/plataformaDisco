@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Log In</title>
+</head>
+
+<body class="bg-[url('img/Gustavo_Cerati-Siempre_Es_Hoy-Interior_Trasera.jpg')] bg-no-repeat bg-center bg-cover">
+    <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h2 class="mt-1 pb-1 text-center text-2xl font-bold text-gray-900">Log in</h2>
+        </div>
+
+        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+            <form class="space-y-6" action="" method="post">
+                <label for="email" class="block text-xl text-center font-medium leading-6 text-gray-900">Correo
+                    Electrónico</label>
+                <div class="mt-2">
+                    <input type="email" name="email" id="email" autocomplete="email" required
+                        class="block w-full rounded-full border-transparent outline-transparent py-1.5 text-gray-900 shadow-lg ring-0 ring-inset ring-divide-transparent placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                </div>
+                <label for="password"
+                    class="block text-xl text-center font-medium leading-6 shadow-2xl text-gray-900">Contraseña</label>
+                <div class="mt-2 pb-6">
+                    <input type="password" name="password" id="password" autocomplete="current-password" required class="flex w-full rounded-full outline-transparent py-1.5 text-gray-900 shadow-2xl ring-0 ring-inset ring-divide-transparent placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                </div>
+                <div class="shadow-2xl">
+                    <button type="submit"
+                        class="flex w-full justify-center rounded-full shadow-2xl px-3 py-1.5 text-2xl font-semibold text-white hover:bg-red-600">Registrate</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

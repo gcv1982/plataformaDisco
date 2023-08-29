@@ -1,0 +1,85 @@
+
+body{
+    background-image: url(img/Gustavo_Cerati-Siempre_Es_Hoy-Interior_Trasera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+div{
+    display: flex;
+}
+div.container{
+    display: flex;
+    box-sizing: border-box;
+    background-image: url(img/Gustavo_Cerati-Siempre_Es_Hoy-Interior_Trasera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    margin: auto;
+    font-family:'Julius Sans One', sans-serif;
+    justify-content:flex-start;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+div.registro{
+    height: 25px;
+    width: 100%;
+    align-items: center;
+    text-align: flex-start;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: flex-start;
+
+}
+
+h3{
+    margin: 1px;
+}
+
+div.form{
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+input{
+    margin: 5px 5px;
+    width: 250px;
+    height: 25px;
+    border-radius: 25px;
+
+
+   
+}
+label{
+    
+    font-family:'Julius Sans One', sans-serif;
+    margin-top: 50px;
+
+}
+.boton{
+    margin-top: 25px;
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family:'Julius Sans One', sans-serif;
+    background-color:  rgb(246, 178, 151);
+}
+.inp{
+    background-color: rgb(246, 178, 151);
+    font-size: 12px;
+}
