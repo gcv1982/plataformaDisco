@@ -15,9 +15,12 @@ app.use('/registro', routes)
 
 async function connectToMongo(){
   try{
-    
-  }
+    await mongoose.connect(url)
+      app.listen(port, () => {
+        console.log('Server escuchando en puerto '+ port+ ' y DB conectada')
+      
+    })
+  }catch(error){
+    console.log(error) 
+ }
 }
-app.listen(3000, () => {
-  console.log('Server listening on port 3000')
-})
